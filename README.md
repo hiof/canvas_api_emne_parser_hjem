@@ -1,11 +1,11 @@
 # Canvas LMS - emneparser - hjemmesidevalg
 Enkel emneparser som kaller canvas API og aggregerer emner og teller valgte hjemmesidetyper.
 
-## System avhengigheter
+## Systemavhengigheter
 * node.js
 * npm
 
-## Usage
+## Bruk
 * Clone denne repoen.
 * Kjør npm install.
 * Kjør npm start.
