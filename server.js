@@ -3,8 +3,8 @@ const fetch = require('node-fetch');
 // bytt denne med en selvgenrert token
 const APItoken = '10900~ga5NWhKSVCm6Cse2EZA1eDEkYWPJiDlavkfntEVLbilfr6YQ0YbyRv1NBmxJ'; // fake-token
 
-// url til første kall bytt med aktulell institusjon
-const initURL = 'https://hiof.instructure.com/api/v1/accounts/1/courses?page=1&per_page=100';
+// url til første kall. bytt med aktuell institusjon - konto id kan man bytte om man ønsker dette for underkonto
+const initURL = 'https://INSTITUSJON.instructure.com/api/v1/accounts/1/courses?page=1&per_page=100';
 
 // lat global array for oppsamling av course-objekt
 let courses = [];
