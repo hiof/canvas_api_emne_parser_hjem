@@ -1,7 +1,10 @@
 const fetch = require('node-fetch');
 
 // bytt denne med en selvgenrert token
-const APItoken = '10900~gn5NWhKSucVCm6useLEZAweDEqZkYWPJiD9avk5ffntEVIPfr6Y00Y7HRv1NBmJJ';
+const APItoken = '10900~ga5NWhKSVCm6Cse2EZA1eDEkYWPJiDlavkfntEVLbilfr6YQ0YbyRv1NBmxJ'; // fake-token
+
+// url til første kall bytt med aktulell institusjon
+const initURL = 'https://hiof.instructure.com/api/v1/accounts/1/courses?page=1&per_page=100';
 
 // lat global array for oppsamling av course-objekt
 let courses = [];
@@ -41,7 +44,7 @@ async function selectChannel(url) {
 }
 
 async function execute() {
-     return await selectChannel('https://hiof.instructure.com/api/v1/accounts/1/courses?page=1&per_page=100');
+     return await selectChannel(initURL);
 }
 
 execute()
