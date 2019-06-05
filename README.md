@@ -10,5 +10,5 @@ Enkel emneparser som kaller canvas API og aggregerer emner og teller valgte hjem
 * Kjør npm install.
 * Kjør npm start.
 
-## NB
+## Advarsel
 Minimal feilhåndtering. Lykke til. 
