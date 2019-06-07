@@ -64,7 +64,7 @@ execute()
                 wikiCourseCnt++;
                 break;
             case 'assignment':
-                assigmentCourseCnt++;
+                assignmentCourseCnt++;
                 break;
             case 'modules':
                 moduleCourseCnt++;
